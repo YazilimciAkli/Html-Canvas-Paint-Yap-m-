@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+Options All -Indexes
+RewriteEngine On
+RewriteRule cursor_(.*).png$ cursor.php?boyut=$1 [L,NC]
